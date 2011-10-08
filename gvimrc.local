@@ -17,3 +17,34 @@ function! s:CloseIfOnlyNerdTreeLeft()
 endfunction
 autocmd WinEnter * call s:CloseIfOnlyNerdTreeLeft()
 
+" Use dark solarized with high contrast
+syntax enable
+set background=dark
+colorscheme solarized
+let g:solarized_contrast = "high"
+
+" Enable syntax and plugin indent
+syntax on
+filetype plugin indent on
+
+" Remove scroll bars
+set guioptions-=r
+
+" Settings for VimClojure
+let vimclojure#HighlightBuiltins = 1
+let vimclojure#ParenRainbow = 1
+
+" Do not warn about missing github-markup gem
+let g:HammerQuiet = 1
+
+" Disable annoying shift selection
+let macvim_hig_shift_movement = 0
+
+au BufNewFile,BufRead *.pig set filetype=pig
+au BufNewFile,BufRead *.pig.substituted set filetype=pig
+au BufNewFile,BufRead *.dtl set filetype=htmldjango
+au BufNewFile,BufRead *.app.src set filetype=erlang
+au BufNewFile,BufRead *.config set filetype=erlang
+au BufNewFile,BufRead dispatch.conf set filetype=erlang
+au BufNewFile,BufRead Guardfile set filetype=ruby
+au BufNewFile,BufRead Capfile set filetype=ruby

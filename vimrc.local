@@ -28,4 +28,4 @@ au BufNewFile,BufRead *.app.src set filetype=erlang
 au BufNewFile,BufRead *.config set filetype=erlang
 au BufNewFile,BufRead dispatch.conf set filetype=erlang
 au BufNewFile,BufRead Guardfile set filetype=ruby
-
+au BufNewFile,BufRead Capfile set filetype=ruby

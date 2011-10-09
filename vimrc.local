@@ -29,3 +29,6 @@ au BufNewFile,BufRead *.config set filetype=erlang
 au BufNewFile,BufRead dispatch.conf set filetype=erlang
 au BufNewFile,BufRead Guardfile set filetype=ruby
 au BufNewFile,BufRead Capfile set filetype=ruby
+
+" Use Node.js for JavaScript interpretation
+let $JS_CMD='node'

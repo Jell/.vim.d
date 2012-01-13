@@ -1,0 +1,27 @@
+[submodule "janus/vimclojure"]
+	path = janus/vimclojure
+	url = git://github.com/vim-scripts/VimClojure.git
+[submodule "janus/vim-erlang-skeleteons"]
+	path = janus/vim-erlang-skeleteons
+	url = git://github.com/vim-scripts/vim-erlang-skeleteons.git
+[submodule "janus/vimerl"]
+	path = janus/vimerl
+	url = git://github.com/oscarh/vimerl.git
+[submodule "janus/vim-r-plugin"]
+	path = janus/vim-r-plugin
+	url = git://github.com/vim-scripts/Vim-R-plugin.git
+[submodule "janus/vim-rebar"]
+	path = janus/vim-rebar
+	url = git://github.com/mbbx6spp/vim-rebar.git
+[submodule "janus/django-vim"]
+	path = janus/django-vim
+	url = git://github.com/vim-scripts/django.vim.git
+[submodule "janus/pig"]
+	path = janus/pig
+	url = git://github.com/vim-scripts/pig.vim.git
+[submodule "janus/vim-latex"]
+	path = janus/vim-latex
+	url = git://github.com/mineiro/vim-latex.git
+[submodule "janus/language-tool"]
+	path = janus/language-tool
+	url = git://github.com/vim-scripts/LanguageTool.git

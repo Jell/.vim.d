@@ -30,6 +30,9 @@ filetype plugin indent on
 " Remove scroll bars
 set guioptions-=r
 
+" Remove toolbar
+set guioptions-=T
+
 " Settings for VimClojure
 let vimclojure#HighlightBuiltins = 1
 let vimclojure#ParenRainbow = 1
@@ -51,3 +54,8 @@ au BufNewFile,BufRead Capfile set filetype=ruby
 
 " Use Node.js for JavaScript interpretation
 let $JS_CMD='node'
+
+let g:Tex_DefaultTargetFormat = "pdf"
+let g:Tex_DefaultCompilerTarget = "pdf"
+let g:Tex_ViewRule_pdf='Preview'
+let g:Tex_CompileRule_pdf = 'xelatex --interaction=nonstopmode $*'
